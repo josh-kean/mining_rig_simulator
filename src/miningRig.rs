@@ -1,11 +1,10 @@
-pub use chip::Chip;
+pub use crate::chip::Chip;
 
-mod MiningRig{
 #[derive(Debug)]
 pub struct MiningRig {
     pub chip_collection: Vec<Chip>,
-    total_hash_capability: f64,
-    total_power_usage: f64,
+    pub total_hash_capability: f64,
+    pub total_power_usage: f64,
 }
 
 impl MiningRig {
@@ -27,4 +26,4 @@ impl MiningRig {
         }
     }
 }
-}
+
