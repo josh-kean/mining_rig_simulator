@@ -1,4 +1,3 @@
-mod Chip {
 #[derive(Debug)]
 //specific to mining chip
 pub struct Chip {
@@ -30,5 +29,4 @@ impl Chip {
         let current_hashes_per_bitcoin: f64 = 100.0; //100 for now, will be converted to a global unit
         (current_hashes_per_bitcoin/self.hashes_s) as usize
     }
-}
 }
