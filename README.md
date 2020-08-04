@@ -4,8 +4,8 @@ This is a simulator to help guide you to set up your bitcoin mining rig. The ove
 ## Development Stages
 
 ### Pre Alpha
--Create preprogrammed GPU's with built in specifications
--Allow user to specify number of GPU's, variety of GPU's, electricity cost, hashes / watt
+- Create preprogrammed GPU's with built in specifications
+- Allow user to specify number of GPU's, variety of GPU's, electricity cost, hashes / watt
 
 ### Alpha
 - Allow user to create custom chips
